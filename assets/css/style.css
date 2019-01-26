@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+panel{
+	width: 100%;
+}
+
+header {
+    background-size: 100% 100%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+tr {
+    text-align: center;
+    width: 100%;
+}
+.panel.heading {
+    padding-top: 0.25%;
+}
+.header-text {
+    font-size: 25px;
+    font: bold;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+.container { 
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+.time-text {
+    font-size: 18px;
+}
+.card-title {
+    color: red;
+    padding-bottom: 0; 
+    padding-left: 8px;
+}
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-content: center;
+    justify-content: center;
+
+}
+.card-row {
+    margin: 10px 50px;
+}
+th, label{
+    font-weight: bold;
+}
+
+#employee-table th,
+td {
+  display: inline-block;
+  width: 16.575%;
+}
